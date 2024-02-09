@@ -1,0 +1,30 @@
+#page{
+    background: linear-gradient(#0a0a1f 0%, #5656DA 100%);
+    border: #5656DA ridge 5px;
+    height:720px;
+    color:aliceblue;
+}
+
+#catmeowdiv{
+ border-right: aliceblue 1px solid;
+}
+
+.Projects{
+    width: 500px;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.400);
+    border: purple ridge 3px;
+}
+
+.Projects a{
+    color:aqua;
+    font-size: 20px;
+}
+
+.col-md-6{
+    height: 450px;
+}
+
+.media{
+    width: 50px;
+}
