@@ -1,3 +1,17 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+body{
+    font-family: Minecraft;
+}
+
+.title{
+    color: forestgreen;
+    text-shadow: 3px 3px 3px green;
+}
+
 #page{
     background: linear-gradient(#0a0a1f 0%, #5656DA 100%);
     border: #5656DA ridge 5px;
@@ -27,4 +41,8 @@
 
 .media{
     width: 50px;
+}
+
+.MCSites{
+    border: goldenrod ridge 5px;
 }
