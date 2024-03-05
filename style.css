@@ -29,6 +29,13 @@ body{
     background-color: #0000ff60;
     border: #aa00aa ridge 3px;
 }
+.Projects:hover{
+    width: 500px;
+    height: 50px;
+    background-color: #0000ff90;
+    border: #cc00cc ridge 3px;
+    box-shadow: 3px 3px 3px #aa20aa;
+}
 
 .Projects a{
     color:#00ffff;
@@ -47,4 +54,7 @@ body{
 
 .MCSites{
     border: #eeaa10 ridge 5px;
+}
+.MCSites:hover{
+    border: #00ff50 ridge 7px;
 }
