@@ -8,30 +8,30 @@ body{
 }
 
 .title{
-    color: forestgreen;
-    text-shadow: 3px 3px 3px green;
+    color: #009000;
+    text-shadow: 3px 3px 3px #007000;
 }
 
 #page{
     background: linear-gradient(#0a0a1f 0%, #5656DA 100%);
     border: #5656DA ridge 5px;
     height:720px;
-    color:aliceblue;
+    color:#ddeeff;
 }
 
 #catmeowdiv{
- border-right: aliceblue 1px solid;
+ border-right: #ddeeff 1px solid;
 }
 
 .Projects{
     width: 500px;
     height: 50px;
-    background-color: rgba(0, 0, 255, 0.400);
-    border: purple ridge 3px;
+    background-color: #0000ff60;
+    border: #aa00aa ridge 3px;
 }
 
 .Projects a{
-    color:aqua;
+    color:#00ffff;
     font-size: 20px;
 }
 
@@ -41,8 +41,10 @@ body{
 
 .media{
     width: 50px;
+    height: 50px;
+    border: 2px outset #5656DA;
 }
 
 .MCSites{
-    border: goldenrod ridge 5px;
+    border: #eeaa10 ridge 5px;
 }
