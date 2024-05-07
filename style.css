@@ -54,6 +54,7 @@ body{
 
 .MCSites{
     border: #eeaa10 ridge 5px;
+    margin: 2px;
 }
 .MCSites:hover{
     border: #00ff50 ridge 7px;
