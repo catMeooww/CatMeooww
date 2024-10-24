@@ -10,6 +10,7 @@ body{
 .title{
     color: #009000;
     text-shadow: 3px 3px 3px #007000;
+    text-align: center;
 }
 
 #page{
@@ -54,8 +55,9 @@ body{
 
 .MCSites{
     border: #eeaa10 ridge 5px;
-    margin: 2px;
+    margin: 5px;
 }
 .MCSites:hover{
     border: #00ff50 ridge 7px;
+    box-shadow: 1px 1px 1px blueviolet;
 }

@@ -3,25 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Who is CatMeooww10?</title>
+    <title>CatMeooww10</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Icons/catmeooww.png" type="image/png">
+    <link rel="shortcut icon" href="Icons/CatMeooww.jpg" type="image/png">
 </head>
 
-<body>
+<body style="background-color: #5656DA">
     <div id="page">
         <center>
-            <h1>Who is CatMeooww10?</h1>
+            <h1>The Developer - CatMeooww10</h1>
             <hr>
             <div id="catmeowdiv" class="col-md-6">
-                <img src="Icons/catmeooww.png" width="376">
+                <img src="Icons/CatMeooww.jpg" width="376">
                 <p>My name is Cat Meooww, I am a developer of Minecraft mods, websites and games</p>
                 <div class="Projects">
-                    <a href="about.html" target="_blank">More About Me</a>
+                    <a href="about.html">More About Me</a>
                 </div>
             </div>
             <div id="projects" class="col-md-6">
@@ -47,7 +46,7 @@
                 </div>
                 <br>
                 <div class="Projects">
-                    <a href="catmeoowwProjects.html" target="_blank">More</a>
+                    <a href="catmeoowwProjects.html">More</a>
                 </div>
             </div>
         </center>
@@ -58,9 +57,16 @@
               <a href="http://www.youtube.com/@cat_meow1020" target="_blank"><img class="media" src="Icons/youtube.png"></a>
               <a href="https://www.instagram.com/catmeooww10/" target="_blank"><img class="media" src="Icons/insta.png"></a>
               <a href="https://github.com/catMeooww?tab=repositories" target="_blank"><img class="media" src="Icons/Github.png"></a>
+              <a href="https://catmeooww.github.io/Crafty-Hub/craftyUsers.html" target="_blank"><img class="media" src="Icons/craftyhub.png"></a>
             </div>
         </div>
     </div>
+    <script>
+        var isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent)
+        if (isMobile){
+            document.getElementById("page").style.borderWidth = "0px";
+        }
+    </script>
 </body>
 
 </html>
