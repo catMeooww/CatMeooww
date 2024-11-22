@@ -7,10 +7,29 @@ body{
     font-family: Minecraft;
 }
 
+.menu{
+    background-color: rgba(0, 0, 0, 0.500);
+    border: outset 5px rgba(0, 0, 0, 0.500);
+    text-align: center;
+    z-index: 10;
+    top: 0;
+    position: sticky;
+}
+
+.menu:hover{
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 5px;
+}
+
 .title{
     color: #009000;
     text-shadow: 3px 3px 3px #007000;
     text-align: center;
+}
+
+.titlecontainer{
+    background-color: rgba(0, 0, 0, 0.500);
+    border: outset 5px rgba(0, 0, 0, 0.500);
 }
 
 #page{
@@ -29,6 +48,7 @@ body{
     height: 50px;
     background-color: #0000ff60;
     border: #aa00aa ridge 3px;
+    cursor: pointer;
 }
 .Projects:hover{
     width: 500px;
