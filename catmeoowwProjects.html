@@ -43,6 +43,9 @@
                                 height="200"></a>
                 <a title="Minecraft Utilities" href="https://catmeooww.github.io/Minecraft-Utilities/"><img
                                 src="otherSites/MC-Utilities_bg.jpg" class="MCSites" width="300" height="200"></a>
+                <a title="Index Dev" href="https://catmeooww.github.io/Index-Dev/projects.html"><img
+                                src="otherSites/IndexDevBg.png" class="MCSites" width="300"
+                                height="200"></a>
                 <a title="Minecraftpédia" href="https://catmeooww.github.io/MinecraftPedia/"><img
                                 src="otherSites/Minecraftpedia Background.jpg" class="MCSites" width="300"
                                 height="200"></a>
@@ -56,28 +59,30 @@
                 <h1 class="title">CATMEOOWW10 GAMES</h1>
         </div>
         <hr>
-        <div style="border: inset 2px green;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
+        <div
+                style="border: inset 2px green;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
                 <a href="https://catmeooww.github.io/CatMeooww-GamingArea/">View CatMeooww Games Page!</a>
-                <button onclick="showGames()" id="showGames" style="float: right;background-color: black;color: green;">+</button>
+                <button onclick="showGames()" id="showGames"
+                        style="float: right;background-color: black;color: green;">+</button>
         </div>
         <div id="showingGames" style="text-align: center;visibility: hidden;">
-                
+
         </div>
         <hr>
         <b id="catlabel" style="float: right;">@CatMeooww</b>
         <script>
-                r = Math.floor(Math.random()*230) + 25;
-                g = Math.floor(Math.random()*230) + 25;
-                b = Math.floor(Math.random()*230) + 25;
-                document.getElementById("catlabel").style.color = "rgb("+r+","+g+","+b+")";
+                r = Math.floor(Math.random() * 230) + 25;
+                g = Math.floor(Math.random() * 230) + 25;
+                b = Math.floor(Math.random() * 230) + 25;
+                document.getElementById("catlabel").style.color = "rgb(" + r + "," + g + "," + b + ")";
 
-                function showGames(){
+                function showGames() {
                         visible = document.getElementById("showingGames").style.visibility;
-                        if (visible == "hidden"){
+                        if (visible == "hidden") {
                                 document.getElementById("showingGames").innerHTML = "<iframe style='border: goldenrod inset 2px;width: 85%;height: 300px;' src='https://catmeooww.github.io/CatMeooww-GamingArea/index.html#gameBox'></iframe>";
                                 document.getElementById("showingGames").style.visibility = "visible";
                                 document.getElementById("showGames").innerHTML = "-";
-                        }else{
+                        } else {
                                 document.getElementById("showingGames").innerHTML = "";
                                 document.getElementById("showingGames").style.visibility = "hidden";
                                 document.getElementById("showGames").innerHTML = "+";
