@@ -79,5 +79,14 @@ body{
 }
 .MCSites:hover{
     border: #00ff50 ridge 7px;
-    box-shadow: 1px 1px 1px blueviolet;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+
+#insidenews{
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#insidenews:hover,#gamesAnchor:hover{
+    color: purple;
 }
