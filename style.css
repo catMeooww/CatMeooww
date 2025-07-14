@@ -82,6 +82,17 @@ body{
     box-shadow: 2px 2px 2px blueviolet;
 }
 
+#stories iframe{
+    margin: 5%;
+    width: 50%;
+    height: 600px;
+    border: #007000 ridge 5px;
+}
+#stories iframe:hover{
+    width: 90%;
+    border-color: #5656DA;
+}
+
 #insidenews{
     color: cornflowerblue;
     text-align: center;
