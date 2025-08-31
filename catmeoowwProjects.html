@@ -60,25 +60,29 @@
         </div>
         <hr>
         <div    title="Click here to view Games!"
-                style="border: inset 2px green;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
+                style="border: inset 2px lime;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
                 <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-GamingArea/">View CatMeooww Games Page!</a>
                 <button onclick="showGames()" id="showGames"
-                        style="float: right;background-color: black;color: green;">+</button>
+                        style="float: right;background-color: black;color: lime;">+</button>
         </div>
         <div id="showingGames" style="text-align: center;visibility: hidden;">
 
         </div>
         <br><br>
         <div class="titlecontainer">
-                <h1 class="title">STORIES</h1>
+                <h1 class="title">CATMEOOWW10 STORIES</h1>
         </div>
         <hr>
-        <div id="stories">
-                <iframe src="more/The Crafty World-Lore.pdf"></iframe>
+        <div    title="Click here to view Stories!"
+                style="border: inset 2px blue;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
+                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-Storytelling/">View CatMeooww Storytelling Page!</a>
+                <button onclick="showStories()" id="showStories"
+                        style="float: right;background-color: black;color: blue;">+</button>
         </div>
+        <div id="showingStories" style="text-align: center;visibility: hidden;"></div>
         <hr>
-        <p id="insidenews">Latest News: Crafty Adventure Update!</p>
-        <b id="catlabel" style="float: right;">@CatMeooww</b>
+        <p id="insidenews">Latest News: Try Crafty World new structures!</p>
+        <b id="catlabel" style="float: right;">@CatMeooww10</b>
         <script>
                 r = Math.floor(Math.random() * 230) + 25;
                 g = Math.floor(Math.random() * 230) + 25;
@@ -88,13 +92,26 @@
                 function showGames() {
                         visible = document.getElementById("showingGames").style.visibility;
                         if (visible == "hidden") {
-                                document.getElementById("showingGames").innerHTML = "<iframe style='border: goldenrod inset 2px;width: 85%;height: 300px;' src='https://catmeooww.github.io/CatMeooww-GamingArea/index.html#gameBox'></iframe>";
+                                document.getElementById("showingGames").innerHTML = "<iframe style='border: goldenrod inset 2px;width: 85%;height: 400px;' src='https://catmeooww.github.io/CatMeooww-GamingArea/index.html#gameBox'></iframe>";
                                 document.getElementById("showingGames").style.visibility = "visible";
                                 document.getElementById("showGames").innerHTML = "-";
                         } else {
                                 document.getElementById("showingGames").innerHTML = "";
                                 document.getElementById("showingGames").style.visibility = "hidden";
                                 document.getElementById("showGames").innerHTML = "+";
+                        }
+                }
+
+                function showStories() {
+                        visible = document.getElementById("showingStories").style.visibility;
+                        if (visible == "hidden") {
+                                document.getElementById("showingStories").innerHTML = "<iframe style='border: goldenrod inset 2px;width: 85%;height: 400px;' src='https://catmeooww.github.io/CatMeooww-Storytelling/'></iframe>";
+                                document.getElementById("showingStories").style.visibility = "visible";
+                                document.getElementById("showStories").innerHTML = "-";
+                        } else {
+                                document.getElementById("showingStories").innerHTML = "";
+                                document.getElementById("showingStories").style.visibility = "hidden";
+                                document.getElementById("showStories").innerHTML = "+";
                         }
                 }
         </script>
