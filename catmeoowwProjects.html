@@ -44,8 +44,9 @@
                 <a title="Minecraft Utilities" href="https://catmeooww.github.io/Minecraft-Utilities/"><img
                                 src="otherSites/MC-Utilities_bg.jpg" class="MCSites" width="300" height="200"></a>
                 <a title="Index Dev" href="https://catmeooww.github.io/Index-Dev/projects.html"><img
-                                src="otherSites/IndexDevBg.png" class="MCSites" width="300"
-                                height="200"></a>
+                                src="otherSites/IndexDevBg.png" class="MCSites" width="300" height="200"></a>
+                <a title="WebSpaces" href="https://catmeooww.github.io/WebSpaces"><img src="otherSites/HexSpaceBg.png"
+                                class="MCSites" width="300" height="200"></a>
                 <a title="Minecraftpédia" href="https://catmeooww.github.io/MinecraftPedia/"><img
                                 src="otherSites/Minecraftpedia Background.jpg" class="MCSites" width="300"
                                 height="200"></a>
@@ -59,9 +60,10 @@
                 <h1 class="title">CATMEOOWW10 GAMES</h1>
         </div>
         <hr>
-        <div    title="Click here to view Games!"
+        <div title="Click here to view Games!"
                 style="border: inset 2px lime;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
-                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-GamingArea/">View CatMeooww Games Page!</a>
+                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-GamingArea/">View CatMeooww Games
+                        Page!</a>
                 <button onclick="showGames()" id="showGames"
                         style="float: right;background-color: black;color: lime;">+</button>
         </div>
@@ -73,21 +75,24 @@
                 <h1 class="title">CATMEOOWW10 STORIES</h1>
         </div>
         <hr>
-        <div    title="Click here to view Stories!"
+        <div title="Click here to view Stories!"
                 style="border: inset 2px blue;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
-                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-Storytelling/">View CatMeooww Storytelling Page!</a>
+                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-Storytelling/">View CatMeooww
+                        Storytelling Page!</a>
                 <button onclick="showStories()" id="showStories"
                         style="float: right;background-color: black;color: blue;">+</button>
         </div>
         <div id="showingStories" style="text-align: center;visibility: hidden;"></div>
         <hr>
         <p id="insidenews">Latest News: Try Crafty World new structures!</p>
-        <b id="catlabel" style="float: right;">@CatMeooww10</b>
+        <b id="catlabel" style="float: right;" onmouseenter="catlabelcol()">@CatMeooww10</b>
         <script>
-                r = Math.floor(Math.random() * 230) + 25;
-                g = Math.floor(Math.random() * 230) + 25;
-                b = Math.floor(Math.random() * 230) + 25;
-                document.getElementById("catlabel").style.color = "rgb(" + r + "," + g + "," + b + ")";
+                function catlabelcol() {
+                        r = Math.floor(Math.random() * 230) + 25;
+                        g = Math.floor(Math.random() * 230) + 25;
+                        b = Math.floor(Math.random() * 230) + 25;
+                        document.getElementById("catlabel").style.color = "rgb(" + r + "," + g + "," + b + ")";
+                }
 
                 function showGames() {
                         visible = document.getElementById("showingGames").style.visibility;
