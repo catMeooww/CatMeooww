@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="Icons/CatMeooww.jpg" type="image/jpg">
 </head>
 
-<body background="Icons/StoneBg.png">
+<body background="Icons/StoneBg.png" onload="catLabelCol()">
         <div class="menu">
                 <a href="index.html">CatMeooww10 Page</a>
                 <span>|</span>
@@ -22,39 +22,85 @@
                 <h1 class="title">CATMEOOWW10 WEB PROJECTS!</h1>
         </div>
         <hr>
-        <center title="My Main Projects!">
-                <a title="Crafty Hub" href="https://catmeooww.github.io/Crafty-Hub/"><img
-                                src="otherSites/CraftyForums.png" class="MCSites" width="300" height="200"></a>
-                <a title="Minecraft Builders Blog" href="https://catmeooww.github.io/Minecraft-Builder-Blog/"><img
-                                src="otherSites/BuildersBlog Background.png" class="MCSites" width="300"
-                                height="200"></a>
-                <a title="Minecraft World News" href="https://catmeooww.github.io/The-Minecraft-World-News/"><img
-                                src="otherSites/Minecraft World Background.png" class="MCSites" width="300"
-                                height="200"></a>
-                <a title="Minecraft World Community" href="https://catmeooww.github.io/MinecraftWorldCommunity/"><img
-                                src="otherSites/Minecraft Community Background.jpg" class="MCSites" width="300"
-                                height="200"></a>
-                <a title="GameCord" href="https://catmeooww.github.io/GameCord/"><img src="otherSites/GameCordBg.png"
-                                class="MCSites" width="300" height="200"></a>
-                <a title="Minecraft Filter" href="https://catmeooww.github.io/Minecraft-Filter/"><img
-                                src="otherSites/Mobs.png" class="MCSites" width="300" height="200"></a>
-                <a title="Minecraft Listing" href="https://catmeooww.github.io/Minecraft-Listing/"><img
-                                src="otherSites/Minecraft Listing Background.jpg" class="MCSites" width="300"
-                                height="200"></a>
-                <a title="Minecraft Utilities" href="https://catmeooww.github.io/Minecraft-Utilities/"><img
-                                src="otherSites/MC-Utilities_bg.jpg" class="MCSites" width="300" height="200"></a>
-                <a title="Index Dev" href="https://catmeooww.github.io/Index-Dev/projects.html"><img
-                                src="otherSites/IndexDevBg.png" class="MCSites" width="300" height="200"></a>
-                <a title="WebSpaces" href="https://catmeooww.github.io/WebSpaces"><img src="otherSites/HexSpaceBg.png"
-                                class="MCSites" width="300" height="200"></a>
-                <a title="Minecraftpédia" href="https://catmeooww.github.io/MinecraftPedia/"><img
-                                src="otherSites/Minecraftpedia Background.jpg" class="MCSites" width="300"
-                                height="200"></a>
-                <a title="Crafty World" href="https://www.curseforge.com/minecraft/mc-mods/crafty-world"><img
-                                src="otherSites/crafty_world_bg.png" class="MCSites" width="300" height="200"></a>
-                <a title="Minecraft Ai" href="https://catmeooww.github.io/MinecraftAi/"><img
-                                src="otherSites/aicraft_bg.png" class="MCSites" width="300" height="200"></a>
-        </center>
+        <div id="showingProjects">
+                <center>
+                        <div class="CatProjects" title="WebSpaces">
+                                <img src="./otherSites/HexSpaceBg.png">
+                                <button onclick="about(1)">About</button>
+                                <button onclick="redirect(1)">Access</button>
+                                <p id="abt1">WebSpaces</p>
+                        </div>
+                        <div class="CatProjects" title="Crafty Hub">
+                                <img src="./otherSites/CraftyForums.png">
+                                <button onclick="about(2)">About</button>
+                                <button onclick="redirect(2)">Access</button>
+                                <p id="abt2">Crafty Hub</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft Listing">
+                                <img src="./otherSites/Minecraft Listing Background.jpg">
+                                <button onclick="about(3)">About</button>
+                                <button onclick="redirect(3)">Access</button>
+                                <p id="abt3">Minecraft Listing</p>
+                        </div>
+                        <div class="CatProjects" title="GameCord">
+                                <img src="./otherSites/GameCordBg.png">
+                                <button onclick="about(4)">About</button>
+                                <button onclick="redirect(4)">Access</button>
+                                <p id="abt4">GameCord</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft World Community">
+                                <img src="./otherSites/Minecraft Community Background.jpg">
+                                <button onclick="about(5)">About</button>
+                                <button onclick="redirect(5)">Access</button>
+                                <p id="abt5">Minecraft World Community</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft Builders Blog">
+                                <img src="./otherSites/BuildersBlog Background.png">
+                                <button onclick="about(6)">About</button>
+                                <button onclick="redirect(6)">Access</button>
+                                <p id="abt6">Minecraft Builders Blog</p>
+                        </div>
+                        <div class="CatProjects" title="Index Dev">
+                                <img src="./otherSites/IndexDevBg.png">
+                                <button onclick="about(7)">About</button>
+                                <button onclick="redirect(7)">Access</button>
+                                <p id="abt7">Index Dev</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft Utilities">
+                                <img src="./otherSites/MC-Utilities_bg.jpg">
+                                <button onclick="about(8)">About</button>
+                                <button onclick="redirect(8)">Access</button>
+                                <p id="abt8">Minecraft Utilities</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft World News">
+                                <img src="./otherSites/Minecraft World Background.png">
+                                <button onclick="about(9)">About</button>
+                                <button onclick="redirect(9)">Access</button>
+                                <p id="abt9">Minecraft World News</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraftpédia">
+                                <img src="./otherSites/Minecraftpedia Background.jpg">
+                                <button onclick="about(10)">About</button>
+                                <button onclick="redirect(10)">Access</button>
+                                <p id="abt10">MinecraftPedia</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft Filter">
+                                <img src="./otherSites/Mobs.png">
+                                <button onclick="about(11)">About</button>
+                                <button onclick="redirect(11)">Access</button>
+                                <p id="abt11">Minecraft Filter</p>
+                        </div>
+                        <div class="CatProjects" title="Minecraft AI">
+                                <img src="./otherSites/aicraft_bg.png">
+                                <button onclick="about(12)">About</button>
+                                <button onclick="redirect(12)">Access</button>
+                                <p id="abt12">Minecraft with AI</p>
+                        </div>
+                        <div class="CatProjects" title="more">
+                                <label style="color: white;text-shadow: 2px 2px 2px green;">More Stuff Coming!<br>Access games page for more</label>
+                        </div>
+                </center>
+        </div>
         <br><br>
         <div class="titlecontainer">
                 <h1 class="title">CATMEOOWW10 GAMES</h1>
@@ -77,17 +123,64 @@
         <hr>
         <div title="Click here to view Stories!"
                 style="border: inset 2px blue;text-align: center;width: 90%;margin:5%;background-color: black;padding: 10px;">
-                <a id="gamesAnchor" href="https://catmeooww.github.io/CatMeooww-Storytelling/">View CatMeooww
+                <a id="storiesAnchor" href="https://catmeooww.github.io/CatMeooww-Storytelling/">View CatMeooww
                         Storytelling Page!</a>
                 <button onclick="showStories()" id="showStories"
                         style="float: right;background-color: black;color: blue;">+</button>
         </div>
         <div id="showingStories" style="text-align: center;visibility: hidden;"></div>
         <hr>
-        <p id="insidenews">Latest News: Try Crafty World new structures!</p>
+        <p id="insidenews">Latest News: Paper Survival Game disponible in #Games</p>
         <b id="catlabel" style="float: right;" onmouseenter="catlabelcol()">@CatMeooww10</b>
         <script>
-                function catlabelcol() {
+                function redirect(id){
+                        switch (id){
+                                case 1:
+                                        location = "https://catmeooww.github.io/WebSpaces";
+                                        break;
+                                case 2:
+                                        location = "https://catmeooww.github.io/Crafty-Hub/";
+                                        break;
+                                case 3:
+                                        location = "https://catmeooww.github.io/Minecraft-Listing/";
+                                        break;
+                                case 4:
+                                        location = "https://catmeooww.github.io/GameCord/";
+                                        break;
+                                case 5:
+                                        location = "https://catmeooww.github.io/MinecraftWorldCommunity/";
+                                        break;
+                                case 6:
+                                        location = "https://catmeooww.github.io/Minecraft-Builder-Blog/";
+                                        break;
+                                case 7:
+                                        location = "https://catmeooww.github.io/Index-Dev/projects.html";
+                                        break;
+                                case 8:
+                                        location = "https://catmeooww.github.io/Minecraft-Utilities/";
+                                        break;
+                                case 9:
+                                        location = "https://catmeooww.github.io/The-Minecraft-World-News/";
+                                        break;
+                                case 10:
+                                        location = "https://catmeooww.github.io/MinecraftPedia/";
+                                        break;
+                                case 11:
+                                        location = "https://catmeooww.github.io/Minecraft-Filter/";
+                                        break;
+                                case 12:
+                                        location = "https://catmeooww.github.io/MinecraftAi/";
+                                        break;
+                                default:
+                                        location.reload();
+                        }
+                }
+
+                function about(id){
+                        document.getElementById("abt"+id).style.visibility = "visible";
+                }
+
+                function catLabelCol() {
                         r = Math.floor(Math.random() * 230) + 25;
                         g = Math.floor(Math.random() * 230) + 25;
                         b = Math.floor(Math.random() * 230) + 25;

@@ -3,11 +3,11 @@
     src: url(Minecraft.ttf);
 }
 
-body{
+body {
     font-family: Minecraft;
 }
 
-.menu{
+.menu {
     background-color: rgba(0, 0, 0, 0.500);
     border: outset 5px rgba(0, 0, 0, 0.500);
     text-align: center;
@@ -16,41 +16,42 @@ body{
     position: sticky;
 }
 
-.menu:hover{
+.menu:hover {
     background-color: rgba(0, 0, 0, 0.800);
     padding: 5px;
 }
 
-.title{
+.title {
     color: #009000;
     text-shadow: 3px 3px 3px #007000;
     text-align: center;
 }
 
-.titlecontainer{
+.titlecontainer {
     background-color: rgba(0, 0, 0, 0.500);
     border: outset 5px rgba(0, 0, 0, 0.500);
 }
 
-#page{
+#page {
     background: linear-gradient(#0a0a1f 0%, #5656DA 100%);
     border: #5656DA ridge 5px;
-    height:720px;
-    color:#ddeeff;
+    height: 720px;
+    color: #ddeeff;
 }
 
-#catmeowdiv{
- border-right: #ddeeff 1px solid;
+#catmeowdiv {
+    border-right: #ddeeff 1px solid;
 }
 
-.Projects{
+.Projects {
     width: 500px;
     height: 50px;
     background-color: #0000ff60;
     border: #aa00aa ridge 3px;
     cursor: pointer;
 }
-.Projects:hover{
+
+.Projects:hover {
     width: 500px;
     height: 50px;
     background-color: #0000ff90;
@@ -58,35 +59,66 @@ body{
     box-shadow: 3px 3px 3px #aa20aa;
 }
 
-.Projects a{
-    color:#00ffff;
+.Projects a {
+    color: #00ffff;
     font-size: 20px;
 }
 
-.col-md-6{
+.col-md-6 {
     height: 450px;
 }
 
-.media{
+.media {
     width: 50px;
     height: 50px;
     border: 2px outset #5656DA;
 }
 
-.MCSites{
-    border: #eeaa10 ridge 5px;
-    margin: 5px;
-}
-.MCSites:hover{
-    border: #00ff50 ridge 7px;
-    box-shadow: 2px 2px 2px blueviolet;
+#showingProjects {
+    background-color: #00000055;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
-#insidenews{
+.CatProjects img, .CatProjects label {
+    width: 270;
+    height: 180;
+    border: 3px ridge black
+}
+
+.CatProjects button{
+    color: aliceblue;
+    background-color: darkslategrey;
+    margin: 2px;
+}
+
+.CatProjects p{
+    visibility: collapse;
+    color:aliceblue;
+}
+
+.CatProjects {
+    width: min-content;
+    height: min-content;
+    display: inline-block;
+    margin: 8px;
+    border: solid rgba(0, 128, 0, 0.6) 2px;
+    background-color: rgba(47, 79, 79, 0.6);
+    padding: 5px;
+}
+
+.CatProjects:hover{
+    cursor: pointer;
+    border: 3px rgba(218, 165, 32, 1) outset;
+    background-color: rgba(47, 79, 79, 1);
+}
+
+#insidenews {
     color: cornflowerblue;
     text-align: center;
 }
 
-#insidenews:hover,#gamesAnchor:hover{
+#insidenews:hover,
+#gamesAnchor:hover {
     color: purple;
 }
