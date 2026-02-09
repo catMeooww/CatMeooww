@@ -7,6 +7,16 @@ body {
     font-family: Minecraft;
 }
 
+p {
+    color: aliceblue;
+    text-shadow: green 2px 2px 2px;
+}
+
+a {
+    color: cyan;
+    text-shadow: purple 2px 2px 2px;
+}
+
 .menu {
     background-color: rgba(0, 0, 0, 0.500);
     border: outset 5px rgba(0, 0, 0, 0.500);
@@ -80,21 +90,22 @@ body {
     border-bottom: solid black 1px;
 }
 
-.CatProjects img, .CatProjects label {
+.CatProjects img,
+.CatProjects label {
     width: 270;
     height: 180;
     border: 3px ridge black
 }
 
-.CatProjects button{
+.CatProjects button {
     color: aliceblue;
     background-color: darkslategrey;
     margin: 2px;
 }
 
-.CatProjects p{
+.CatProjects p {
     visibility: collapse;
-    color:aliceblue;
+    color: aliceblue;
 }
 
 .CatProjects {
@@ -107,7 +118,7 @@ body {
     padding: 5px;
 }
 
-.CatProjects:hover{
+.CatProjects:hover {
     cursor: pointer;
     border: 3px rgba(218, 165, 32, 1) outset;
     background-color: rgba(47, 79, 79, 1);
