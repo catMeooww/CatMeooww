@@ -3,8 +3,7 @@
 ## I´m CatMeooww10
 __________
 
-I Develop some websites for Playing games like Minecraft and to create my own games!
-All of them are avaliable in my github profile and this repository!
+I Develop Web Projects, games and even Minecraft Mods. Visit them through this page:
 https://catmeooww.github.io/CatMeooww/
 ___________
 
